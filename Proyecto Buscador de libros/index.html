@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Buscador web </title>
+    <link href="https://fonts.googleapis.com/css?family=Staatliches" rel="stylesheet">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/skeleton.css">
+    <link rel="stylesheet" href="css/app.css">
+</head>
+
+<body>
+
+    <h1>Buscador de Libros</h1>
+
+    <div class="contenedor">
+
+
+
+        <form id="buscador">
+            <div class="row">
+                <div class="three columns">
+                    
+                    <label for="isbn">ISBN</label>
+                    <select class="u-full-width" id="isbn">
+                        <option value="">Seleccione</option>
+                        <option value="978/849/759/220-8">978/849/759/220-8</option>
+                        <option value="978/846/634/682-5">978/846/634/682-5</option>
+                        <option value="978/848/445/991-0">978/848/445/991-0</option>
+                        <option value="978/847/245/371-5">978/847/245/371-5</option>
+                        <option value="978/958/822/705-4">978/958/822/705-4</option>
+                        <option value="978/846/637/300-5">978/846/637/300-5</option>
+                        <option value="978/848/428/488-8">978/848/428/488-8</option>
+                        <option value="978/840/823/928-4">978/840/823/928-4</option>
+                        <option value="978/840/823/922-2">978/840/823/922-2</option>
+                        <option value="978/840/825/850-6">978/840/825/850-6</option>
+                        <option value="978/840/827/476-6">978/840/827/476-6</option>
+                        <option value="978/170/184/836-8">978/170/184/836-8</option>
+                        <option value="978/179/197/765-8">978/179/197/765-8</option>
+                        <option value="978/849/473/315-4">978/849/473/315-4</option>
+                        <option value="978/844/154/903-6">978/844/154/903-6</option>
+                        <option value="978/842/673/227-9">978/842/673/227-9</option>
+                        <option value="978/841/949/986-8">978/841/949/986-8</option>
+                        <option value="978/950/021/073-7">978/950/021/073-7</option>
+                        <option value="978/950/493/200-0">978/950/493/200-0</option>
+                        <option value="978/987/629/724-0">978/987/629/724-0</option>
+                       
+                    </select>
+                </div>
+                <div class="three columns">
+                    <label for="nombre">Nombre del Libro</label>
+                    <select class="u-full-width" id="nombre">
+                        <option value="">Seleccione</option>
+                        <option value="Orgullo Y Prejuicio">Orgullo Y Prejuicio</option>
+                        <option value="El faro del fin del mundo">El faro del fin del mundo</option>
+                        <option value="Cien años de soledad">Cien años de soledad</option>
+                        <option value="Cronicas de una muerte anunciada">Cronicas de una muerte anunciada</option>
+                        <option value="El libro de los secretos">El libro de los secretos</option>
+                        <option value="Inteligencia emocional">Inteligencia emocional </option>
+                        <option value="La culpa es de la vaca">La culpa es de la vaca</option>
+                        <option value="Padre rico padre pobre">Padre rico padre pobre</option>
+                        <option value="Sorprendeme">Sorprendeme</option>
+                        <option value="Pideme lo que quieras">Pideme lo que quieras</option>
+                        <option value="¿ Y si lo probamos?">¿ Y si lo probamos?</option>
+                        <option value="¿ Y a ti que te pica?">¿ Y a ti que te pica?</option>
+                        <option value="Logica de programacion">Logica de programacion</option>
+                        <option value="El libro practico del programador">El libro practico del programador</option>
+                        <option value="Java script elocuente">Java script elocuente</option>
+                        <option value="python a fondo">python a fondo</option>
+                        <option value="Enciclopedia de la gastronomia francesa">Enciclopedia de la gastronomia francesa</option>
+                        <option value="Pasteleria urbana">Pasteleria urbana</option>
+                        <option value="El ABC de la pasteleria">El ABC de la pasteleria</option>
+                        <option value="Manual de Gastronomia molecular">Manual de Gastronomia molecular</option>
+
+                    </select>
+                </div>
+                <div class="three columns">
+                    <label for="autor">Autor</label>
+                    <select class="u-full-width" id="autor">
+                        <option value="">Seleccione</option>
+                        <option value="	Austen Jane">	Austen Jane</option>
+                        <option value="Julio Verne">Julio Verne</option>
+                        <option value="Gabriel Garcia Marquez">Gabriel Garcia Marquez</option>
+                        <option value="Osho">Osho</option>
+                        <option value="Daniel Goleman">Daniel Goleman</option>
+                        <option value="Jaime Lopera Gutierrez">Jaime Lopera Gutierrez</option>
+                        <option value="Robert T. Kiyosaki">Robert T. Kiyosaki</option>
+                        <option value="Megan Maxwell">Megan Maxwell</option>
+                        <option value="Rafael Gomez Blanes">Rafael Gomez Blanes</option>
+                        <option value="Anaya multimedia">Anaya multimedia</option>
+                        <option value="Oscar Remirez Jimenez">Oscar Remirez Jimenez</option>
+                        <option value="Blume editorial">Blume editorial</option>
+                        <option value="Gustavo Nari">Gustavo Nari</option>
+                        <option value="Osvaldo Gross">Osvaldo Gross</option>
+                        <option value="Mariana Koppmann">Mariana Koppmann</option>
+                    </select>
+                </div>
+                <div class="three columns">
+                    <label for="edicion">Edicion</label>
+                    <select class="u-full-width" id="edicion">
+                        <option value="">Seleccionar</option>
+                        <option value="2009">2009</option>
+                        <option value="2017">2017</option>
+                        <option value="2003">2003</option>
+                        <option value="2018">2018</option>
+                        <option value="2022">2022</option>
+                        <option value="1996">1996</option>
+                        <option value="2015">2015</option>
+                        <option value="2023">2023</option>
+                        <option value="2021">2021</option>
+                        <option value="2024">2024</option>
+                       
+
+
+                    </select>
+                </div>
+                <div class="row">
+                    <div class="four columns">
+                        <label for="categoria">Categoria</label>
+                        <select class="u-full-width" id="categoria">
+                        <option value="">Seleccione</option>
+                         <option value="Literatura">Literatura</option>
+                        <option value="Autoayuda">Autoayuda</option>
+                        <option value="Adulto_Joven">Adulto Joven</option>
+                        <option value="Tecnologia">Tecnologia</option>
+                        <option value="Gastronomia">Gastronomia</option>
+                        </select>
+                    </div>
+                </div>
+            </div>
+        </form>
+
+
+        <h1>Resultados</h1>
+        <div id="resultado"></div>
+    </div>
+
+    <a class="sitio-web">ED Tecnica EG</a>
+
+    <script src="js/db.js"></script>
+    <script src="js/buscador.js"></script>
+
+</body>
+
+</html>
